@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://media.istockphoto.com/vectors/salsa-dancers-silhouettes-vector-id1154942375?k=20&m=1154942375&s=612x612&w=0&h=J2N8gPTvtUknr34U9Ijpc144pAbfdAUDW9yYpwQt7kE=);
+}
+
+.label {
+    color: violet;
+    margin-left: 30px;
+}
+
+.input {
+    border-radius: 100px;
+}
+#login {
+    margin-left: 30px;
+}
+
+#marquee {
+    margin-top: 650px;
+    color: violet;
+    font-weight: bolder;
+    font-size: 40px;
+}

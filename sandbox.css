@@ -1,0 +1,394 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  background-color: #dabcbc;
+}
+
+.container .navbar {
+  width: 100%;
+  height: 80px;
+}
+
+.container .navbar .ulselect {
+  float: right;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+  margin-right: 300px;
+}
+
+.container .navbar .ulselect i {
+  margin-left: 10px;
+}
+
+.container .navbar .ulselect ul li {
+  display: inline-block;
+  margin: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container .navbar .ulselect ul li:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+.container .navbar .divlogo {
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 100px;
+}
+
+.container .maindiv {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+
+.container .maindiv .text1div {
+  width: 30%;
+  margin-right: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .maindiv .text1div button {
+  color: white;
+  background-color: orange;
+  border-style: none;
+  border-radius: 30px;
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.container .maindiv .text1div button:hover {
+  cursor: pointer;
+}
+
+.container .maindiv p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #757373;
+  display: inline-block;
+}
+
+.container .maindiv h1 {
+  margin-bottom: 20px;
+}
+
+.section {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  background-color: #dabcbc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .main-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section .main-card .card {
+  width: 258px;
+  height: 370px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.section .main-card .card .card-text {
+  width: 200px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section .main-card .card .card-text #a4 {
+  text-decoration: none;
+  color: blue;
+}
+
+.section .main-card .card .card-text #a4:hover {
+  cursor: pointer;
+}
+
+.section .main-card .card .card-text #a3 {
+  text-decoration: none;
+  color: green;
+}
+
+.section .main-card .card .card-text #a3:hover {
+  cursor: pointer;
+}
+
+.section .main-card .card .card-text #a2 {
+  text-decoration: none;
+  color: red;
+}
+
+.section .main-card .card .card-text #a2:hover {
+  cursor: pointer;
+}
+
+.section .main-card .card .card-text #a1 {
+  text-decoration: none;
+  color: orange;
+}
+
+.section .main-card .card .card-text #a1:hover {
+  cursor: pointer;
+}
+
+.section .main-card .card p {
+  color: gray;
+}
+
+.section .main-card .card i {
+  font-size: 70px;
+}
+
+.toptext {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toptext h3 {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.toptext h1 {
+  text-align: center;
+}
+
+header .part3 {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .part3 .part3-text {
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  margin-left: 40px;
+}
+
+header .part3 .part3-text p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+}
+
+header .part3 .part3-text .inputbutton {
+  margin-top: 20px;
+}
+
+header .part3 .part3-text button {
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+header .part3 .part3-text button:hover {
+  cursor: pointer;
+}
+
+header .part3 .part3-text input {
+  border-radius: 10px;
+  font-size: 20px;
+  border-style: solid;
+  color: orange;
+  padding-bottom: 20px;
+}
+
+header .part3 .part3-text h1 {
+  color: darkblue;
+}
+
+header .part3 .part3-text h4 {
+  color: gray;
+}
+
+header .part3 img {
+  margin-top: 500px;
+}
+
+.part3 {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.part3 .part3-text {
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  margin-left: 40px;
+}
+
+.part3 .part3-text p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+}
+
+.part3 .part3-text .inputbutton {
+  margin-top: 20px;
+}
+
+.part3 .part3-text button {
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.part3 .part3-text button:hover {
+  cursor: pointer;
+}
+
+.part3 .part3-text input {
+  border-radius: 10px;
+  font-size: 20px;
+  border-style: solid;
+  color: orange;
+  padding-bottom: 20px;
+}
+
+.part3 .part3-text h1 {
+  color: darkblue;
+}
+
+.part3 .part3-text h4 {
+  color: gray;
+}
+
+.part3 img {
+  margin-top: 500px;
+}
+/*# sourceMappingURL=sandbox.css.map */

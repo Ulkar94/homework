@@ -1,0 +1,86 @@
+body {
+    background-color: aqua;
+   
+
+}
+
+#dance {
+    color: mediumorchid;
+    font-size:50;
+    font-style:oblique;
+    background-color: lightyellow;
+    text-align: center;
+   margin: 0;
+   padding: 0;
+   border-radius: 40px;
+   border-bottom: 50px;
+
+}
+
+.styletext {
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight:700;
+    line-height: 25px;
+    text-decoration:solid;
+    text-overflow:clip;
+    text-anchor: start;
+}
+
+#list {
+    color: magenta;
+    font-size: 30px;
+   
+} 
+
+#image {
+    border:5px outset purple ;
+    
+position: absolute;
+top:120px;
+left:1200px;
+width: 300px;
+height: 400px;
+margin: 0;
+padding: 0;
+
+
+}
+    
+
+#frame {
+    position:absolute;
+    top:160px;
+    left:400px;
+    
+    
+}
+
+
+#Send {
+    background-color: blue;
+    color: white;
+    width: 80px;;
+    height: 30px;
+    margin: auto;
+
+}
+
+#form {
+    margin-left: 20px;
+    margin-top: 160px;
+
+}
+
+#adres {
+    margin-left: 1100px;
+    margin-bottom: 1000px;
+    margin-block-end: 100px;
+}
+
+#sendlink {
+    color: thistle;
+}
+
+
